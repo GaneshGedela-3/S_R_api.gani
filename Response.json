@@ -1,0 +1,1298 @@
+---------------------------------------------------
+2019-08-01 16: 19: 16.485159
+add_customer  myFun('company_name','customer_type','customer_name','customer_number','customer_address','contact_person_name_1','contact_person_phone_1','contact_person_email_1','contact_person_name_2','contact_person_phone_2','contact_person_email_2','bank_name_1','bank_address_1','bank_account_number_1','currency_1','swift_code_1','iban_number_1','bank_name_2','bank_address_2','bank_account_number_2','currency_2','swift_code_2','iban_number_2','bank_name_3','bank_address_3','bank_account_number_3','currency_3','swift_code_3','iban_number_3','status')
+ url->"http://localhost/saii_resources_api/add_customer"
+
+{
+    "login_user_id": "1",
+    "company_name": "company_name_sample",
+    "customer_type": "customer_type_sample",
+    "customer_name": "customer_name_sample",
+    "customer_number": "customer_number_sample",
+    "customer_address": "customer_address_sample",
+    "contact_person_name_1": "contact_person_name_1_sample",
+    "contact_person_phone_1": "contact_person_phone_1_sample",
+    "contact_person_email_1": "contact_person_email_1_sample",
+    "contact_person_email_1": "contact_person_email_1_sample",
+    "contact_person_name_2": "contact_person_name_2_sample",
+    "contact_person_phone_2": "contact_person_phone_2_sample",
+    "contact_person_email_2": "contact_person_email_2_sample",
+    "bank_name_1": "bank_name_1_sample",
+    "bank_address_1": "bank_address_1_sample",
+    "bank_account_number_1": "bank_account_number_1_sample",
+    "currency_1": "currency_1_sample",
+    "swift_code_1": "swift_code_1_sample",
+    "iban_number_1": "iban_number_1_sample",
+    "bank_name_2": "bank_name_2_sample",
+    "bank_address_2": "bank_address_2_sample",
+    "bank_account_number_2": "bank_account_number_2_sample",
+    "currency_2": "currency_2_sample",
+    "swift_code_2": "swift_code_2_sample",
+    "iban_number_2": "iban_number_2_sample",
+    "bank_name_3": "bank_name_3_sample",
+    "bank_address_3": "bank_address_3_sample",
+    "bank_account_number_3": "bank_account_number_3_sample",
+    "currency_3": "currency_3_sample",
+    "swift_code_3": "swift_code_3_sample",
+    "iban_number_3": "iban_number_3_sample",
+    "status": "status_sample"
+}
+
+{
+    "id": "2",
+    "message": "Success"
+}
+---------------------------------------------------
+2019-08-01 16: 20: 42.028901
+add_currency  myFun('currency','status')
+ url->"http://localhost/saii_resources_api/add_currency"
+
+{
+    "login_user_id": "1",
+    "currency": "currency_sample",
+    "status": "status_sample"
+}
+
+{
+    "id": "2",
+    "message": "Success"
+}
+---------------------------------------------------
+2019-08-01 16: 24: 13.819687
+add_vendor  myFun('company_name','vendor_type','vendor_name','vendor_number','vendor_address','contact_person_name_1','contact_person_phone_1','contact_person_email_1','contact_person_name_2','contact_person_phone_2','contact_person_email_2','bank_name_1','bank_address_1','bank_account_number_1','currency_1','swift_code_1','iban_number_1','bank_name_2','bank_address_2','bank_account_number_2','currency_2','swift_code_2','iban_number_2','bank_name_3','bank_address_3','bank_account_number_3','currency_3','swift_code_3','iban_number_3','status')
+ url->"http://localhost/saii_resources_api/add_vendor"
+
+{
+    "login_user_id": "1",
+    "company_name": "company_name_sample",
+    "vendor_type": "vendor_type_sample",
+    "vendor_name": "vendor_name_sample",
+    "vendor_number": "vendor_number_sample",
+    "vendor_address": "vendor_address_sample",
+    "contact_person_name_1": "contact_person_name_1_sample",
+    "contact_person_phone_1": "contact_person_phone_1_sample",
+    "contact_person_email_1": "contact_person_email_1_sample",
+    "contact_person_name_2": "contact_person_name_2_sample",
+    "contact_person_phone_2": "contact_person_phone_2_sample",
+    "contact_person_email_2": "contact_person_email_2_sample",
+    "bank_name_1": "bank_name_1_sample",
+    "bank_address_1": "bank_address_1_sample",
+    "bank_account_number_1": "bank_account_number_1_sample",
+    "currency_1": "currency_1_sample",
+    "swift_code_1": "swift_code_1_sample",
+    "iban_number_1": "iban_number_1_sample",
+    "bank_name_2": "bank_name_2_sample",
+    "bank_address_2": "bank_address_2_sample",
+    "bank_account_number_2": "bank_account_number_2_sample",
+    "currency_2": "currency_2_sample",
+    "swift_code_2": "swift_code_2_sample",
+    "iban_number_2": "iban_number_2_sample",
+    "bank_name_3": "bank_name_3_sample",
+    "bank_address_3": "bank_address_3_sample",
+    "bank_account_number_3": "bank_account_number_3_sample",
+    "currency_3": "currency_3_sample",
+    "swift_code_3": "swift_code_3_sample",
+    "iban_number_3": "iban_number_3_sample",
+    "status": "status_sample"
+}
+
+{
+    "id": "2",
+    "message": "Success"
+}
+---------------------------------------------------
+url->"http://localhost/saii_resources_api/get_currency"
+
+optional
+{
+    "status": "active"
+}
+
+{
+    "currencies": [
+        {
+            "id": "1",
+            "currency": "currency_mobie",
+            "status": "status_mobie",
+            "created_by": "1",
+            "created_date": "2019-08-01 15:50:42",
+            "updated_by": "1",
+            "updated_date": "2019-08-01 15:50:42"
+        },
+        {
+            "id": "2",
+            "currency": "currency_sample",
+            "status": "status_sample",
+            "created_by": "1",
+            "created_date": "2019-08-01 16:20:41",
+            "updated_by": "1",
+            "updated_date": "2019-08-01 16:20:41"
+        },
+        {
+            "id": "3",
+            "currency": "currency_mobie",
+            "status": "status_mobie",
+            "created_by": "1",
+            "created_date": "2019-08-01 16:45:33",
+            "updated_by": "1",
+            "updated_date": "2019-08-01 16:45:33"
+        }
+    ]
+}
+-----------------------------------------------------------------------
+url->"http://localhost/saii_resources_api/update_vendor"
+
+request
+
+{
+    "login_user_id": "1",
+    "vendor_id": "1",
+    "company_name": "987",
+    "vendor_type": "sd",
+    "vendor_name": "sdf",
+    "vendor_number": "s",
+    "vendor_address": "dfg",
+    "contact_person_name_1": "dfg",
+    "contact_person_phone_1": "wer",
+    "contact_person_email_1": "ww",
+    "contact_person_name_2": "ffg",
+    "contact_person_phone_2": "jjhj",
+    "contact_person_email_2": "ffr",
+    "bank_name_1": "etet",
+    "bank_address_1": "st",
+    "bank_account_number_1": "test",
+    "currency_1": "tset",
+    "swift_code_1": "test",
+    "iban_number_1": "test",
+    "bank_name_2": "tset",
+    "bank_address_2": "sett",
+    "bank_account_number_2": "tset",
+    "currency_2": "tett",
+    "swift_code_2": "stet",
+    "iban_number_2": "iban_number_2_mobie",
+    "bank_name_3": "bank_name_3_mobie",
+    "bank_address_3": "bank_address_3_mobie",
+    "bank_account_number_3": "bank_account_number_3_mobie",
+    "currency_3": "currency_3_mobie",
+    "swift_code_3": "swift_code_3_mobie",
+    "iban_number_3": "iban_number_3_mobie",
+    "status": "Active"
+}
+    Response
+{
+    "message": "vendor details updated"
+}
+---------------------------------------------------------------------
+url->"http://localhost/saii_resources_api/get_customers"
+
+IN REQUEST STATUS CAN BE SENT 
+
+response
+{
+    "customers": [
+        {
+            "id": "1",
+            "company_name": "987",
+            "customer_type": "customer_type_mobie",
+            "customer_name": "customer_name_mobie",
+            "customer_number": "customer_number_mobie",
+            "customer_address": "customer_address_mobie",
+            "contact_person_name_1": "dfg",
+            "contact_person_phone_1": "contact_person_phone_1_mobie",
+            "contact_person_email_1": "contact_person_email_1_mobie",
+            "contact_person_name_2": "contact_person_name_2_mobie",
+            "contact_person_phone_2": "contact_person_phone_2_mobie",
+            "contact_person_email_2": "contact_person_email_2_mobie",
+            "bank_name_1": "bank_name_1_mobie",
+            "bank_address_1": "bank_address_1_mobie",
+            "bank_account_number_1": "bank_account_number_1_mobie",
+            "currency_1": "currency_1_mobie",
+            "swift_code_1": "swift_code_1_mobie",
+            "iban_number_1": "iban_number_1_mobie",
+            "bank_name_2": "bank_name_2_mobie",
+            "bank_address_2": "bank_address_2_mobie",
+            "bank_account_number_2": "bank_account_number_2_mobie",
+            "currency_2": "currency_2_mobie",
+            "swift_code_2": "swift_code_2_mobie",
+            "iban_number_2": "iban_number_2_mobie",
+            "bank_name_3": "bank_name_3_mobie",
+            "bank_address_3": "bank_address_3_mobie",
+            "bank_account_number_3": "bank_account_number_3_mobie",
+            "currency_3": "currency_3_mobie",
+            "swift_code_3": "swift_code_3_mobie",
+            "iban_number_3": "iban_number_3_mobie",
+            "status": "status_mobie",
+            "created_by": "1",
+            "created_date": "2019-08-01 16:16:50",
+            "updated_by": "1",
+            "updated_date": "2019-08-02 12:06:47"
+        },
+        {
+            "id": "2",
+            "company_name": "company_name_sample",
+            "customer_type": "customer_type_sample",
+            "customer_name": "customer_name_sample",
+            "customer_number": "customer_number_sample",
+            "customer_address": "customer_address_sample",
+            "contact_person_name_1": "contact_person_name_1_sample",
+            "contact_person_phone_1": "contact_person_phone_1_sample",
+            "contact_person_email_1": "contact_person_email_1_sample",
+            "contact_person_name_2": "contact_person_name_2_sample",
+            "contact_person_phone_2": "contact_person_phone_2_sample",
+            "contact_person_email_2": "contact_person_email_2_sample",
+            "bank_name_1": "bank_name_1_sample",
+            "bank_address_1": "bank_address_1_sample",
+            "bank_account_number_1": "bank_account_number_1_sample",
+            "currency_1": "currency_1_sample",
+            "swift_code_1": "swift_code_1_sample",
+            "iban_number_1": "iban_number_1_sample",
+            "bank_name_2": "bank_name_2_sample",
+            "bank_address_2": "bank_address_2_sample",
+            "bank_account_number_2": "bank_account_number_2_sample",
+            "currency_2": "currency_2_sample",
+            "swift_code_2": "swift_code_2_sample",
+            "iban_number_2": "iban_number_2_sample",
+            "bank_name_3": "bank_name_3_sample",
+            "bank_address_3": "bank_address_3_sample",
+            "bank_account_number_3": "bank_account_number_3_sample",
+            "currency_3": "currency_3_sample",
+            "swift_code_3": "swift_code_3_sample",
+            "iban_number_3": "iban_number_3_sample",
+            "status": "status_sample",
+            "created_by": "1",
+            "created_date": "2019-08-01 16:19:15",
+            "updated_by": "1",
+            "updated_date": "2019-08-01 16:19:15"
+        },
+        {
+            "id": "3",
+            "company_name": "company_name_mobie",
+            "customer_type": "customer_type_mobie",
+            "customer_name": "customer_name_mobie",
+            "customer_number": "customer_number_mobie",
+            "customer_address": "customer_address_mobie",
+            "contact_person_name_1": "contact_person_name_1_mobie",
+            "contact_person_phone_1": "contact_person_phone_1_mobie",
+            "contact_person_email_1": "contact_person_email_1_mobie",
+            "contact_person_name_2": "contact_person_name_2_mobie",
+            "contact_person_phone_2": "contact_person_phone_2_mobie",
+            "contact_person_email_2": "contact_person_email_2_mobie",
+            "bank_name_1": "bank_name_1_mobie",
+            "bank_address_1": "bank_address_1_mobie",
+            "bank_account_number_1": "bank_account_number_1_mobie",
+            "currency_1": "currency_1_mobie",
+            "swift_code_1": "swift_code_1_mobie",
+            "iban_number_1": "iban_number_1_mobie",
+            "bank_name_2": "bank_name_2_mobie",
+            "bank_address_2": "bank_address_2_mobie",
+            "bank_account_number_2": "bank_account_number_2_mobie",
+            "currency_2": "currency_2_mobie",
+            "swift_code_2": "swift_code_2_mobie",
+            "iban_number_2": "iban_number_2_mobie",
+            "bank_name_3": "bank_name_3_mobie",
+            "bank_address_3": "bank_address_3_mobie",
+            "bank_account_number_3": "bank_account_number_3_mobie",
+            "currency_3": "currency_3_mobie",
+            "swift_code_3": "swift_code_3_mobie",
+            "iban_number_3": "iban_number_3_mobie",
+            "status": "status_mobie",
+            "created_by": "1",
+            "created_date": "2019-08-01 16:43:59",
+            "updated_by": "1",
+            "updated_date": "2019-08-01 16:43:59"
+        }
+    ]
+}
+
+---------------------------------------------------------------------
+url->"http://localhost/saii_resources_api/get_customer"
+
+{
+    "customer_id": "1"
+}
+
+{
+    "customer": [
+        {
+            "id": "1",
+            "company_name": "987",
+            "customer_type": "customer_type_mobie",
+            "customer_name": "customer_name_mobie",
+            "customer_number": "customer_number_mobie",
+            "customer_address": "customer_address_mobie",
+            "contact_person_name_1": "dfg",
+            "contact_person_phone_1": "contact_person_phone_1_mobie",
+            "contact_person_email_1": "contact_person_email_1_mobie",
+            "contact_person_name_2": "contact_person_name_2_mobie",
+            "contact_person_phone_2": "contact_person_phone_2_mobie",
+            "contact_person_email_2": "contact_person_email_2_mobie",
+            "bank_name_1": "bank_name_1_mobie",
+            "bank_address_1": "bank_address_1_mobie",
+            "bank_account_number_1": "bank_account_number_1_mobie",
+            "currency_1": "currency_1_mobie",
+            "swift_code_1": "swift_code_1_mobie",
+            "iban_number_1": "iban_number_1_mobie",
+            "bank_name_2": "bank_name_2_mobie",
+            "bank_address_2": "bank_address_2_mobie",
+            "bank_account_number_2": "bank_account_number_2_mobie",
+            "currency_2": "currency_2_mobie",
+            "swift_code_2": "swift_code_2_mobie",
+            "iban_number_2": "iban_number_2_mobie",
+            "bank_name_3": "bank_name_3_mobie",
+            "bank_address_3": "bank_address_3_mobie",
+            "bank_account_number_3": "bank_account_number_3_mobie",
+            "currency_3": "currency_3_mobie",
+            "swift_code_3": "swift_code_3_mobie",
+            "iban_number_3": "iban_number_3_mobie",
+            "status": "status_mobie",
+            "created_by": "1",
+            "created_date": "2019-08-01 16:16:50",
+            "updated_by": "1",
+            "updated_date": "2019-08-02 12:06:47"
+        }
+    ]
+}
+---------------------------------------------------------------------
+url->"http://localhost/saii_resources_api/update_customer"
+
+{
+    "login_user_id": "1",
+    "customer_id": "1",
+    "vendor_type": "sd",
+    "vendor_name": "sdf",
+    "vendor_number": "s",
+    "vendor_address": "dfg",
+    "contact_person_name_1": "dfg",
+    "contact_person_phone_1": "contact_person_phone_1_mobie",
+    "contact_person_email_1": "contact_person_email_1_mobie",
+    "contact_person_name_2": "contact_person_name_2_mobie",
+    "contact_person_phone_2": "contact_person_phone_2_mobie",
+    "contact_person_email_2": "contact_person_email_2_mobie",
+    "bank_name_1": "bank_name_1_mobie",
+    "bank_address_1": "bank_address_1_mobie",
+    "bank_account_number_1": "bank_account_number_1_mobie",
+    "currency_1": "currency_1_mobie",
+    "swift_code_1": "swift_code_1_mobie",
+    "iban_number_1": "iban_number_1_mobie",
+    "bank_name_2": "bank_name_2_mobie",
+    "bank_address_2": "bank_address_2_mobie",
+    "bank_account_number_2": "bank_account_number_2_mobie",
+    "currency_2": "currency_2_mobie",
+    "swift_code_2": "swift_code_2_mobie",
+    "iban_number_2": "iban_number_2_mobie",
+    "bank_name_3": "bank_name_3_mobie",
+    "bank_address_3": "bank_address_3_mobie",
+    "bank_account_number_3": "bank_account_number_3_mobie",
+    "currency_3": "currency_3_mobie",
+    "swift_code_3": "swift_code_3_mobie",
+    "iban_number_3": "iban_number_3_mobie",
+    "status": "status_mobie"
+}
+
+{
+    "message": "customer details updated"
+}
+---------------------------------------------------------------------
+url->"http://localhost/saii_resources_api/user/login"
+{
+    "user_name": "Milton",
+    "password": "12345"
+}
+{
+    "user_id": "10",
+    "user_roles": [
+        {
+            "role_id": "1"
+        }
+    ],
+    "idtoken": "2jauzoMqoxoo6uHnxEtzqA=="
+}
+---------------------------------------------------------------------
+url->"http://localhost/saii_resources_api/user/register"
+{
+    "user_name": "Vdot",
+    "password": "12345",
+    "login_user_id": "4",
+    "role_name": "Admin"
+}
+    
+{
+    "id": "10",
+    "message": "Success"
+}
+---------------------------------------------------------------------
+url->"http://localhost/saii_resources_api/update_user"
+{
+    "user_id": "4",
+    "user_name": "jacob",
+    "login_user_id": "3"
+}
+       
+{
+    "message": "user details updated",
+    "code": "200"
+}
+---------------------------------------------------------------------
+url->"http://localhost/saii_resources_api/get_user"
+{
+    "user_id": "3"
+}
+{
+    "users": [
+        {
+            "id": "3",
+            "user_name": "sumit",
+            "password": "8cb2237d0679ca88db6464eac60da96345513964",
+            "status": "Active",
+            "created_date": "2019-08-05 11:33:50",
+            "updated_date": "2019-08-05 11:33:50"
+        }
+    ]
+}
+---------------------------------------------------------------------
+url->"http://localhost/saii_resources_api/get_users"
+{
+    "users": [
+        {
+            "id": "1",
+            "user_name": "Admin",
+            "password": "8cb2237d0679ca88db6464eac60da96345513964",
+            "status": "Active",
+            "created_date": "2019-08-05 11:26:48",
+            "updated_date": "2019-08-05 11:26:48"
+        },
+        {
+            "id": "2",
+            "user_name": "bharath",
+            "password": "8cb2237d0679ca88db6464eac60da96345513964",
+            "status": "Active",
+            "created_date": "2019-08-05 11:28:02",
+            "updated_date": "2019-08-05 11:28:02"
+        },
+        {
+            "id": "3",
+            "user_name": "sumit",
+            "password": "8cb2237d0679ca88db6464eac60da96345513964",
+            "status": "Active",
+            "created_date": "2019-08-05 11:33:50",
+            "updated_date": "2019-08-05 11:33:50"
+        },
+        {
+            "id": "4",
+            "user_name": "Edword",
+            "password": "8cb2237d0679ca88db6464eac60da96345513964",
+            "status": "Active",
+            "created_date": "2019-08-05 11:37:09",
+            "updated_date": "2019-08-05 11:37:09"
+        }
+    ]
+}
+--------------------------------------------------------------
+url->"https://localhost/saii_resources_api/get_roles"
+
+{
+    "roles": [
+        {
+            "id": "1",
+            "role_name": "Admin",
+            "status": "Active"
+        },
+        {
+            "id": "2",
+            "role_name": "Finance",
+            "status": "Active"
+        }
+    ]
+}
+--------------------------------------------------------------
+url->"https://localhost/saii_resources_api/add_user"
+{
+    "user_name": "Alt",
+    "email": "Insert@Ctrl.lock",
+    "login_user_id": "1",
+    "idtoken": "vIPPUHGhVxnQNrCkQ0gRQA==",
+    "password": "12345",
+    "role_id": [
+        "2",
+        "1",
+        "3"
+    ]
+}
+{
+    "id": "13",
+    "message": "Success"
+}
+{
+    "message": "Token has been expired",
+    "code": "607"
+}
+{
+    "message": "User already exists",
+    "code": "614"
+}
+--------------------------------------------------------------
+url->"https://localhost/saii_resources_api/add_surveyor"
+
+{
+    "surveyor_name": "SGS",
+    "status": "InActive"
+}
+
+{
+    "surveyor_id": "3",
+    "code": "200"
+}
+--------------------------------------------------------------
+url->"https://localhost/saii_resources_api/update_surveyor"
+{
+    "surveyor_id": "3",
+    "status": "Active",
+    "login_user_id": "1",
+    "idtoken": "199oFaPRLLvytCoa0Q9AZQ=="
+}
+{
+    "message": "surveyor updated",
+    "code": "200"
+}
+--------------------------------------------------------------
+url->"https://localhost/saii_resources_api/get_surveyor"
+{
+    "surveyor_id": "3",
+    "login_user_id": "1",
+    "idtoken": "199oFaPRLLvytCoa0Q9AZQ=="
+}
+{
+    "data": [
+        {
+            "id": "3",
+            "surveyor_name": "SGS",
+            "status": "Active",
+            "created_date": "2019-09-20 16:39:17",
+            "updated_date": "2019-09-20 16:54:08"
+        }
+    ]
+}
+--------------------------------------------------------------
+url->"https://localhost/saii_resources_api/get_surveyors"
+{
+    "login_user_id": "1",
+    "idtoken": "199oFaPRLLvytCoa0Q9AZQ=="
+}
+{
+    "data": [
+        {
+            "id": "1",
+            "surveyor_name": "Leon",
+            "status": "Active",
+            "created_date": "2019-09-20 16:32:02",
+            "updated_date": "2019-09-20 16:32:02"
+        },
+        {
+            "id": "2",
+            "surveyor_name": "Tribakti",
+            "status": "Active",
+            "created_date": "2019-09-20 16:34:19",
+            "updated_date": "2019-09-20 16:34:19"
+        },
+        {
+            "id": "3",
+            "surveyor_name": "SGS",
+            "status": "Active",
+            "created_date": "2019-09-20 16:39:17",
+            "updated_date": "2019-09-20 16:54:08"
+        }
+    ]
+}
+
+--------------------------------------------------------------
+url->"localhost/saii_resources_api/update_purchase_contract"
+{
+    "login_user_id": "1",
+    "idtoken": "+7HXCIXb8n8sHGNQeFOWcg==",
+    "company_name": "PT SDAM",
+    "purchase_contract_id": "1",
+    "vendor_type": "techi",
+    "specification_id": "1",
+    "vendor": "Wx group",
+    "purchase_type": "Barge",
+    "inco_term": "6",
+    "quantity_in_mt": "1500",
+    "currency": "INR",
+    "surveyor_type": "assembly",
+    "surveyor_name": "SLR",
+    "analysis_type": "AMG",
+    "price_pmt": "5899",
+    "pol": "opilsaie87@gmail.com",
+    "vessel_type": "omni",
+    "status": "Active"
+}
+
+{
+    "message": "surveyor updated",
+    "code": "200"
+}
+--------------------------------------------------------------
+url--"localhost/saii_resources_api/get_purchase_contracts"
+
+{
+    "data": [
+        {
+            "id": "1",
+            "specification_id": "1",
+            "company_name": "PT SDAM",
+            "vendor": "455",
+            "purchase_type": "Barge",
+            "contract_no": "SDAM19BG02",
+            "inco_term": "SBI",
+            "quantity_in_mt": "BTM",
+            "surveyor_type": "7887548839894",
+            "surveyor_name": "122",
+            "analysis_type": "5467",
+            "price_pmt": "5899",
+            "currency": "",
+            "pol": "hfhvjh58787@gmail.com",
+            "vessel_type": "9632255877410",
+            "status": null,
+            "created_date": "2019-09-23 16:58:27",
+            "updated_date": "2019-09-23 16:58:27"
+        },
+        {
+            "id": "2",
+            "specification_id": "1",
+            "company_name": "PT SDAM",
+            "vendor": "Wx group",
+            "purchase_type": "Barge",
+            "contract_no": "SDAM19BG03",
+            "inco_term": "6",
+            "quantity_in_mt": "1500",
+            "surveyor_type": "assembly",
+            "surveyor_name": "SLR",
+            "analysis_type": "AMG",
+            "price_pmt": "5899",
+            "currency": "INR",
+            "pol": "opilsaie87@gmail.com",
+            "vessel_type": "omni",
+            "status": null,
+            "created_date": "2019-09-23 17:01:40",
+            "updated_date": "2019-09-23 17:01:40"
+        }
+    ]
+}
+
+--------------------------------------------------------------
+url--"localhost/saii_resources_api/get_purchase_contract"
+{
+    "login_user_id": "1",
+    "idtoken": "+7HXCIXb8n8sHGNQeFOWcg==",
+    "purchase_contract_id": "2"
+}
+
+{
+    "data": [
+        {
+            "id": "2",
+            "specification_id": "1",
+            "company_name": "PT SDAM",
+            "vendor": "Wx INDIA",
+            "purchase_type": "Barge",
+            "contract_no": "SDAM19BG03",
+            "inco_term": "18",
+            "quantity_in_mt": "1389",
+            "surveyor_type": "assembly",
+            "surveyor_name": "SLR",
+            "analysis_type": "AMG",
+            "price_pmt": "5899",
+            "currency": "INR",
+            "pol": "opilsaie87@gmail.com",
+            "vessel_type": "omni",
+            "status": null,
+            "created_date": "2019-09-23 17:01:40",
+            "updated_date": "2019-09-23 17:01:40"
+        }
+    ]
+}
+
+--------------------------------------------------------------
+with specification table 
+url->"https://localhost/saii_resources_api/add_purchase_contract"
+{
+    "login_user_id":"1",
+    "idtoken": "+7HXCIXb8n8sHGNQeFOWcg==",
+    "company_name":"PT SDAM",
+    "vendor":"V.",
+    "purchase_type":"Barge",
+    "inco_term":"12",
+    "quantity_in_mt":"1500",
+    "currency":"INR",
+    "surveyor_type":"assembly",
+    "surveyor_name":"SLS",
+    "analysis_type":"AMG",
+    "price_pmt":"1.89",
+    "pol":"opilsaie87@gmail.com",
+    "vessel_type":"yagi",
+    "quality_calorific_value":"fic_value_test",
+    "quality_total_moisture":"234",
+    "quality_ash":"asd",
+    "quality_volatile_matter":"dsf",
+    "quality_fixed_carbon":"ert",
+    "quality_fuel_ratio":"dfg",
+    "quality_total_sulphur":"gd",
+    "quality_hgi":"s",
+    "quality_phosphorous":"df",
+    "quality_chlorine":"quality_chlorine_test",
+    "quality_sodium_in_ash":"quality_sodium_in_ash_test",
+    "proximate_calorific_value":"proximate_calorific_value_test",
+    "proximate_moisture":"proximate_moisture_test",
+    "proximate_ash":"proximate_ash_test",
+    "proximate_volatile_matter":"proximate_volatile_matter_test",
+    "proximate_fixed_carbon":"proximate_fixed_carbon_test",
+    "proximate_total_sulphur":"proximate_total_sulphur_test",
+    "ultimate_carbon":"ultimate_carbon_test",
+    "ultimate_hydrogen":"ultimate_hydrogen_test",
+    "ultimate_nitrogen":"ultimate_nitrogen_test",
+    "ultimate_sulphur":"dfg",
+    "ultimate_oxygen":"ultimate_oxygen_test",
+    "ultimate_ash":"ultimate_ash_test",
+    "ultimate_total_moisture":"xc",
+    "size_2_to_50mm":"size_2_to_50mm_test",
+    "size_lt_2mm":"size_lt_2mm_test",
+    "ash_reducing_initial":"ash_reducing_initial_test",
+    "ash_reducing_softening":"ash_reducing_softening_test",
+    "ash_reducing_hemispherical":"ash_reducing_hemispherical_test",
+    "ash_reducing_flow":"ash_reducing_flow_test",
+    "ash_oxidizing_initial":"ash_oxidizing_initial_test",
+    "ash_oxidizing_softening":"ash_oxidizing_softening_test",
+    "ash_oxidizing_hemispherical":"ash_oxidizing_hemispherical_test",
+    "ash_oxidizing_flow":"ash_oxidizing_flow_test",
+    "ash_sio2":"ash_sio2_test",
+    "ash_ai203":"ash_ai203_test",
+    "ash_fe203":"ash_fe203_test",
+    "ash_cao":"ash_cao_test",
+    "ash_mgo":"ash_mgo_test",
+    "ash_na2o":"ash_na2o_test",
+    "ash_k2o":"ash_k2o_test",
+    "ash_tio2":"ash_tio2_test",
+    "ash_mn3o4":"ash_mn3o4_test",
+    "ash_so3":"ash_so3_test",
+    "ash_p2o5":"ash_p2o5_test",
+    "trace_arsenic":"trace_arsenic_test",
+    "trace_mercury":"trace_mercury_test",
+    "trace_selenium":"trace_selenium_test",
+    "trace_other":"trace_other_test",
+    "other_coal_bulk_density":"other_coal_bulk_density_test",
+    "other_stowage_factor":"other_stowage_factor_test",
+    "other_imsbc_group ":"other_imsbc_group_test",
+    "other_coal_size_lt_1mm ":"other_coal_size_lt_1mm_test",
+    "other_coal_size_lt_10mm ":"other_coal_size_lt_10mm_test",
+    "other_coal_size_bt_10_and_50mm ":"other_coal_size_bt_10_and_50mm_test",
+    "other_coal_size_gt_50mm ":"other_coal_size_gt_50mm_test",
+    "other_max_lump_size ":"other_max_lump_size_test",
+    "other_angle_maximum":"34",
+    "other_angle_minimum":"54",
+    "status":"Active"
+}
+{
+    "pc_id": "2",
+    "code": "200"
+}
+
+-------------------------------------------------------------------
+
+url->"localhost/saii_resources_api/update_purchase_contract"
+
+{
+	"login_user_id":"1",
+	"idtoken": "+7HXCIXb8n8sHGNQeFOWcg==",
+	"company_name":"PT SDAM",
+	"purchase_contract_id":"14",
+	"vendor":"Wx Oral",
+	"purchase_type":"Barge",
+	"inco_term":"12",
+	"quantity_in_mt":"1452",
+	"currency":"INR",
+	"surveyor_type":"section",
+	"surveyor_name":"mCR",
+	"analysis_type":"mx",
+	"price_pmt":"4589",
+	"pol":"opilsaie87@gmail.com",
+	"vessel_type":"pola",
+    "quality_calorific_value_typical":"updated_sept-30_1:12:05",
+    "quality_total_moisture_typical":"updated_sept-30_1:12:05",
+    "quality_ash_typical":"updated_sept-30_1:12:05",
+    "quality_volatile_matter_typical":"updated_sept-30_1:12:05",
+    "quality_fixed_carbon_typical":"updated_sept-30_1:12:05",
+    "quality_fuel_ratio_typical":"updated_sept-30_1:12:05",
+    "quality_total_sulphur_typical":"updated_sept-30_1:12:05",
+    "quality_hgi_typical":"updated_sept-30_1:12:05",
+    "quality_phosphorous_typical":"updated_sept-30_1:12:05",
+    "quality_chlorine_typical":"updated_sept-30_1:12:05",
+    "quality_sodium_in_ash_typical":"updated_sept-30_1:12:05",
+    "quality_calorific_value_min":"updated_sept-30_1:12:05",
+    "quality_total_moisture_min":"updated_sept-30_1:12:05",
+    "quality_ash_min":"updated_sept-30_1:12:05",
+    "quality_volatile_matter_min":"updated_sept-30_1:12:05",
+    "quality_fixed_carbon_min":"updated_sept-30_1:12:05",
+    "quality_fuel_ratio_min":"updated_sept-30_1:12:05",
+    "quality_total_sulphur_min":"updated_sept-30_1:12:05",
+    "quality_hgi_min":"updated_sept-30_1:12:05",
+    "quality_phosphorous_min":"updated_sept-30_1:12:05",
+    "quality_chlorine_min":"updated_sept-30_1:12:05",
+    "quality_sodium_in_ash_min":"updated_sept-30_1:12:05",
+    "quality_calorific_value_max":"updated_sept-30_1:12:05",
+    "quality_total_moisture_max":"updated_sept-30_1:12:05",
+    "quality_ash_max":"updated_sept-30_1:12:05",
+    "quality_volatile_matter_max":"updated_sept-30_1:12:05",
+    "quality_fixed_carbon_max":"updated_sept-30_1:12:05",
+    "quality_fuel_ratio_max":"updated_sept-30_1:12:05",
+    "quality_total_sulphur_max":"updated_sept-30_1:12:05",
+    "quality_hgi_max":"updated_sept-30_1:12:05",
+    "quality_phosphorous_max":"updated_sept-30_1:12:05",
+    "quality_chlorine_max":"updated_sept-30_1:12:05",
+    "quality_sodium_in_ash_max":"updated_sept-30_1:12:05",
+    "proximate_calorific_value_typical":"updated_sept-30_1:12:05",
+    "proximate_moisture_typical":"updated_sept-30_1:12:05",
+    "proximate_ash_typical":"updated_sept-30_1:12:05",
+    "proximate_volatile_matter_typical":"updated_sept-30_1:12:05",
+    "proximate_fixed_carbon_typical":"updated_sept-30_1:12:05",
+    "proximate_total_sulphur_typical":"updated_sept-30_1:12:05",
+    "proximate_calorific_value_min":"updated_sept-30_1:12:05",
+    "proximate_moisture_min":"updated_sept-30_1:12:05",
+    "proximate_ash_min":"updated_sept-30_1:12:05",
+    "proximate_volatile_matter_min":"updated_sept-30_1:12:05",
+    "proximate_fixed_carbon_min":"updated_sept-30_1:12:05",
+    "proximate_total_sulphur_min":"updated_sept-30_1:12:05",
+    "proximate_calorific_value_max":"updated_sept-30_1:12:05",
+    "proximate_moisture_max":"updated_sept-30_1:12:05",
+    "proximate_ash_max":"updated_sept-30_1:12:05",
+    "proximate_volatile_matter_max":"updated_sept-30_1:12:05",
+    "proximate_fixed_carbon_max":"updated_sept-30_1:12:05",
+    "proximate_total_sulphur_max":"updated_sept-30_1:12:05",
+    "ultimate_carbon_typical":"updated_sept-30_1:12:05",
+    "ultimate_hydrogen_typical":"updated_sept-30_1:12:05",
+    "ultimate_nitrogen_typical":"updated_sept-30_1:12:05",
+    "ultimate_sulphur_typical":"updated_sept-30_1:12:05",
+    "ultimate_oxygen_typical":"updated_sept-30_1:12:05",
+    "ultimate_ash_typical":"updated_sept-30_1:12:05",
+    "ultimate_total_moisture_typical":"updated_sept-30_1:12:05",
+    "ultimate_carbon_min":"updated_sept-30_1:12:05",
+    "ultimate_hydrogen_min":"updated_sept-30_1:12:05",
+    "ultimate_nitrogen_min":"updated_sept-30_1:12:05",
+    "ultimate_sulphur_min":"updated_sept-30_1:12:05",
+    "ultimate_oxygen_min":"updated_sept-30_1:12:05",
+    "ultimate_ash_min":"updated_sept-30_1:12:05",
+    "ultimate_total_moisture_min":"updated_sept-30_1:12:05",
+    "ultimate_carbon_max":"updated_sept-30_1:12:05",
+    "ultimate_hydrogen_max":"updated_sept-30_1:12:05",
+    "ultimate_nitrogen_max":"updated_sept-30_1:12:05",
+    "ultimate_sulphur_max":"updated_sept-30_1:12:05",
+    "ultimate_oxygen_max":"updated_sept-30_1:12:05",
+    "ultimate_ash_max":"updated_sept-30_1:12:05",
+    "ultimate_total_moisture_max":"updated_sept-30_1:12:05",
+    "size_2_to_50mm_typical":"updated_sept-30_1:12:05",
+    "size_lt_2mm_typical":"updated_sept-30_1:12:05",
+    "size_2_to_50mm_min":"updated_sept-30_1:12:05",
+    "size_lt_2mm_min":"updated_sept-30_1:12:05",
+    "size_2_to_50mm_max":"updated_sept-30_1:12:05",
+    "size_lt_2mm_max":"updated_sept-30_1:12:05",
+    "ash_reducing_initial_typical":"updated_sept-30_1:12:05",
+    "ash_reducing_softening_typical":"updated_sept-30_1:12:05",
+    "ash_reducing_hemispherical_typical":"updated_sept-30_1:12:05",
+    "ash_reducing_flow_typical":"updated_sept-30_1:12:05",
+    "ash_reducing_initial_min":"updated_sept-30_1:12:05",
+    "ash_reducing_softening_min":"updated_sept-30_1:12:05",
+    "ash_reducing_hemispherical_min":"updated_sept-30_1:12:05",
+    "ash_reducing_flow_min":"updated_sept-30_1:12:05",
+    "ash_reducing_initial_max":"updated_sept-30_1:12:05",
+    "ash_reducing_softening_max":"updated_sept-30_1:12:05",
+    "ash_reducing_hemispherical_max":"updated_sept-30_1:12:05",
+    "ash_reducing_flow_max":"updated_sept-30_1:12:05",
+    "ash_oxidizing_initial_typical":"updated_sept-30_1:12:05",
+    "ash_oxidizing_softening_typical":"updated_sept-30_1:12:05",
+    "ash_oxidizing_hemispherical_typical":"updated_sept-30_1:12:05",
+    "ash_oxidizing_flow_typical":"updated_sept-30_1:12:05",
+    "ash_oxidizing_initial_min":"updated_sept-30_1:12:05",
+    "ash_oxidizing_softening_min":"updated_sept-30_1:12:05",
+    "ash_oxidizing_hemispherical_min":"updated_sept-30_1:12:05",
+    "ash_oxidizing_flow_min":"updated_sept-30_1:12:05",
+    "ash_oxidizing_initial_max":"updated_sept-30_1:12:05",
+    "ash_oxidizing_softening_max":"updated_sept-30_1:12:05",
+    "ash_oxidizing_hemispherical_max":"updated_sept-30_1:12:05",
+    "ash_oxidizing_flow_max":"updated_sept-30_1:12:05",
+    "ash_sio2_typical":"updated_sept-30_1:12:05",
+    "ash_ai203_typical":"updated_sept-30_1:12:05",
+    "ash_fe203_typical":"updated_sept-30_1:12:05",
+    "ash_cao_typical":"updated_sept-30_1:12:05",
+    "ash_mgo_typical":"updated_sept-30_1:12:05",
+    "ash_na2o_typical":"updated_sept-30_1:12:05",
+    "ash_k2o_typical":"updated_sept-30_1:12:05",
+    "ash_tio2_typical":"updated_sept-30_1:12:05",
+    "ash_mn3o4_typical":"updated_sept-30_1:12:05",
+    "ash_so3_typical":"updated_sept-30_1:12:05",
+    "ash_p2o5_typical":"updated_sept-30_1:12:05",
+    "ash_sio2_min":"updated_sept-30_1:12:05",
+    "ash_ai203_min":"updated_sept-30_1:12:05",
+    "ash_fe203_min":"updated_sept-30_1:12:05",
+    "ash_cao_min":"updated_sept-30_1:12:05",
+    "ash_mgo_min":"updated_sept-30_1:12:05",
+    "ash_na2o_min":"updated_sept-30_1:12:05",
+    "ash_k2o_min":"updated_sept-30_1:12:05",
+    "ash_tio2_min":"updated_sept-30_1:12:05",
+    "ash_mn3o4_min":"updated_sept-30_1:12:05",
+    "ash_so3_min":"updated_sept-30_1:12:05",
+    "ash_p2o5_min":"updated_sept-30_1:12:05",
+    "ash_sio2_max":"updated_sept-30_1:12:05",
+    "ash_ai203_max":"updated_sept-30_1:12:05",
+    "ash_fe203_max":"updated_sept-30_1:12:05",
+    "ash_cao_max":"updated_sept-30_1:12:05",
+    "ash_mgo_max":"updated_sept-30_1:12:05",
+    "ash_na2o_max":"updated_sept-30_1:12:05",
+    "ash_k2o_max":"updated_sept-30_1:12:05",
+    "ash_tio2_max":"updated_sept-30_1:12:05",
+    "ash_mn3o4_max":"updated_sept-30_1:12:05",
+    "ash_so3_max":"updated_sept-30_1:12:05",
+    "ash_p2o5_max":"updated_sept-30_1:12:05",
+    "trace_arsenic_typical":"updated_sept-30_1:12:05",
+    "trace_mercury_typical":"updated_sept-30_1:12:05",
+    "trace_selenium_typical":"updated_sept-30_1:12:05",
+    "trace_other_typical":"updated_sept-30_1:12:05",
+    "trace_arsenic_min":"updated_sept-30_1:12:05",
+    "trace_mercury_min":"updated_sept-30_1:12:05",
+    "trace_selenium_min":"updated_sept-30_1:12:05",
+    "trace_other_min":"updated_sept-30_1:12:05",
+    "trace_arsenic_max":"updated_sept-30_1:12:05",
+    "trace_mercury_max":"updated_sept-30_1:12:05",
+    "trace_selenium_max":"updated_sept-30_1:12:05",
+    "trace_other_max":"updated_sept-30_1:12:05",
+    "other_coal_bulk_density_typical":"updated_sept-30_1:12:05",
+    "other_stowage_factor_typical":"updated_sept-30_1:12:05",
+    "other_imsbc_group_typical":"updated_sept-30_1:12:05",
+    "other_coal_size_lt_1mm_typical":"updated_sept-30_1:12:05",
+    "other_coal_size_lt_10mm_typical":"updated_sept-30_1:12:05",
+    "other_coal_size_bt_10_and_50mm_typical":"updated_sept-30_1:12:05",
+    "other_coal_size_gt_50mm_typical":"updated_sept-30_1:12:05",
+    "other_max_lump_size_typical":"updated_sept-30_1:12:05",
+    "other_angle_maximum_typical":"updated_sept-30_1:12:05",
+    "other_angle_minimum_typical":"updated_sept-30_1:12:05",
+    "other_coal_bulk_density_min":"updated_sept-30_1:12:05",
+    "other_stowage_factor_min":"updated_sept-30_1:12:05",
+    "other_imsbc_group_min":"updated_sept-30_1:12:05",
+    "other_coal_size_lt_1mm_min":"updated_sept-30_1:12:05",
+    "other_coal_size_lt_10mm_min":"updated_sept-30_1:12:05",
+    "other_coal_size_bt_10_and_50mm_min":"updated_sept-30_1:12:05",
+    "other_coal_size_gt_50mm_min":"updated_sept-30_1:12:05",
+    "other_max_lump_size_min":"updated_sept-30_1:12:05",
+    "other_angle_maximum_min":"updated_sept-30_1:12:05",
+    "other_angle_minimum_min":"updated_sept-30_1:12:05",
+    "other_coal_bulk_density_max":"updated_sept-30_1:12:05",
+    "other_stowage_factor_max":"updated_sept-30_1:12:05",
+    "other_imsbc_group_max":"updated_sept-30_1:12:05",
+    "other_coal_size_lt_1mm_max":"updated_sept-30_1:12:05",
+    "other_coal_size_lt_10mm_max":"updated_sept-30_1:12:05",
+    "other_coal_size_bt_10_and_50mm_max":"updated_sept-30_1:12:05",
+    "other_coal_size_gt_50mm_max":"updated_sept-30_1:12:05",
+    "other_max_lump_size_max":"updated_sept-30_1:12:05",
+    "other_angle_maximum_max":"updated_sept-30_1:12:05",
+    "other_angle_minimum_max":"updated_sept-30_1:12:05",
+	"status":"Active"
+}
+
+{"message":"Purchase contract data updated","code":"200"}
+
+--------------------------------------------------------------------
+url->"localhost/saii_resources_api/add_vendor"
+{
+	"login_user_id":"1",
+	"idtoken": "+7HXCIXb8n8sHGNQeFOWcg==",
+	"vendor_type": "Vessel Agent",
+    "vendor_name": "Maybach",
+    "vendor_address": "Zurich",
+    "contact_person_name_1": "`lasanges",
+    "contact_person_phone_1": "9922336548",
+    "contact_person_email_1": "Vivan@gmail.com",
+    "contact_person_name_2": "Shivi",
+    "contact_person_phone_2": "9900336521",
+    "contact_person_email_2": "Shivi@mail.in",
+    "bank_name_1": "Swiss",
+    "bank_address_1": "Swissmade",
+    "bank_account_number_1": "4653250033532",
+    "currency_1": "INR",
+    "swift_code_1": "SF3DV",
+    "iban_number_1": "DSAF46F854",
+    "bank_name_2": "WF",
+    "bank_address_2": "Marathalli",
+    "bank_account_number_2": "6548DSF438F64",
+    "currency_2": "AED",
+    "swift_code_2": "DSFG54",
+    "iban_number_2": "SDVGF54EGVDFS",
+    "bank_name_3": "JPM",
+    "bank_address_3": "CERW34TGF",
+    "bank_account_number_3": "SDERG45GHDFGH54G",
+    "currency_3": "EUR",
+    "swift_code_3": "SDFVR45",
+    "iban_number_3": "SCDFRG4GDRFSG",
+    "status": "Active"
+}
+{
+    "id": "7",
+    "message": "Success"
+}
+--------------------------------------------------------------------
+url="localhost/saii_resources_api/update_vendor"
+{
+	"login_user_id":"1",
+	"idtoken": "+7HXCIXb8n8sHGNQeFOWcg==",
+	"vendor_id":"7",
+    "vendor_name": "Maybach",
+    "vendor_number": "S660",
+    "vendor_address": "Zurich",
+    "contact_person_name_1": "`lasanges",
+    "contact_person_phone_1": "9922336548",
+    "contact_person_email_1": "Vivan@gmail.com",
+    "contact_person_name_2": "Shivi",
+    "contact_person_phone_2": "9900336521",
+    "contact_person_email_2": "Shivi@mail.in",
+    "bank_name_1": "Swiss",
+    "bank_address_1": "Sklovakia",
+    "bank_account_number_1": "4653250033532",
+    "currency_1": "INR",
+    "swift_code_1": "SF3DV",
+    "iban_number_1": "DSAF46F854",
+    "bank_name_2": "WF",
+    "bank_address_2": "Parague",
+    "bank_account_number_2": "6548DSF438F64",
+    "currency_2": "AED",
+    "swift_code_2": "DSFG54",
+    "iban_number_2": "SDVGF54EGVDFS",
+    "bank_name_3": "JPM",
+    "bank_address_3": "Samoa",
+    "bank_account_number_3": "SDERG45GHDFGH54G",
+    "currency_3": "EUR",
+    "swift_code_3": "SDFVR45",
+    "iban_number_3": "SCDFRG4GDRFSG",
+    "status": "Active"
+}
+{
+    "message": "Updated Successfully"
+}
+--------------------------------------------------------------------
+url->"localhost/saii_resources_api/add_mines"
+{
+	"login_user_id":"1",
+	"idtoken": "+7HXCIXb8n8sHGNQeFOWcg==",
+	"mine_name":"dataTeating",
+    "mine_area":"dataTeating",
+    "et_availability":"dataTeating",
+    "no_of_pits":"dataTeating",
+    "explored_area":"dataTeating",
+    "total_area_of_pit":"dataTeating",
+    "production_at_present_n_planned":"dataTeating",
+    "production_previous_month":"dataTeating",
+    "production_target_current_month":"dataTeating",
+    "production_target_upcoming_month":"dataTeating",
+    "no_of_barges_loaded_previous_month":"dataTeating",
+    "no_of_barges_loaded_current_month":"dataTeating",
+    "no_of_barges_to_be_loaded_upcoming_month":"dataTeating",
+    "no_of_seams":"dataTeating",
+    "avg_thickness_of_seams":"dataTeating",
+    "grade_in_gar":"dataTeating",
+    "ash":"dataTeating",
+    "ts":"dataTeating",
+    "hgi":"dataTeating",
+    "reserves_in_current_pit":"dataTeating",
+    "sr":"dataTeating",
+    "total_reserves_in_the_mine":"dataTeating",
+    "contractor_mining":"dataTeating",
+    "hauling_to_crusher_stockpile":"dataTeating",
+    "crushing_rate":"dataTeating",
+    "no_of_crusher":"dataTeating",
+    "hauling_distance":"dataTeating",
+    "dt_for_hauling_coal":"dataTeating",
+    "dt_for_overburden_removal":"dataTeating",
+    "loading_port":"dataTeating",
+    "loading_rate_by__conveyor":"dataTeating",
+    "distance_to_anchorage":"dataTeating",
+    "anchorage_name":"dataTeating"
+}
+{
+    "id": "2",
+    "message": "Success"
+}
+--------------------------------------------------------------------
+url->"localhost/saii_resources_api/update_mines"
+{
+	"login_user_id":"1",
+	"idtoken": "+7HXCIXb8n8sHGNQeFOWcg==",
+	"mine_id":"2",
+	"mine_name":"updator",
+    "mine_area":"updator",
+    "et_availability":"updator",
+    "no_of_pits":"updator",
+    "explored_area":"updator",
+    "total_area_of_pit":"updator",
+    "production_at_present_n_planned":"updator",
+    "production_previous_month":"updator",
+    "production_target_current_month":"updator",
+    "production_target_upcoming_month":"updator",
+    "no_of_barges_loaded_previous_month":"updator",
+    "no_of_barges_loaded_current_month":"updator",
+    "no_of_barges_to_be_loaded_upcoming_month":"updator",
+    "no_of_seams":"updator",
+    "avg_thickness_of_seams":"updator",
+    "grade_in_gar":"updator",
+    "ash":"updator",
+    "ts":"updator",
+    "hgi":"updator",
+    "reserves_in_current_pit":"updator",
+    "sr":"updator",
+    "total_reserves_in_the_mine":"updator",
+    "contractor_mining":"updator",
+    "hauling_to_crusher_stockpile":"updator",
+    "crushing_rate":"updator",
+    "no_of_crusher":"updator",
+    "hauling_distance":"updator",
+    "dt_for_hauling_coal":"updator",
+    "dt_for_overburden_removal":"updator",
+    "loading_port":"updator",
+    "loading_rate_by__conveyor":"updator",
+    "distance_to_anchorage":"updator",
+    "anchorage_name":"updator"
+
+}
+{
+    "message": "Updated Successfully"
+}
+--------------------------------------------------------------------
+url->"localhost/saii_resources_api/get_mines"
+{
+	"login_user_id":"1",
+	"idtoken": "+7HXCIXb8n8sHGNQeFOWcg==",
+}
+{
+    "mines": [
+        {
+            "id": "1",
+            "mine_name": "dataTeating",
+            "mine_area": "dataTeating",
+            "et_availability": "dataTeating",
+            "no_of_pits": "dataTeating",
+            "explored_area": "dataTeating",
+            "total_area_of_pit": "dataTeating",
+            "production_at_present_n_planned": "dataTeating",
+            "production_previous_month": "dataTeating",
+            "production_target_current_month": "dataTeating",
+            "production_target_upcoming_month": "dataTeating",
+            "no_of_barges_loaded_previous_month": "dataTeating",
+            "no_of_barges_loaded_current_month": "dataTeating",
+            "no_of_barges_to_be_loaded_upcoming_month": "dataTeating",
+            "no_of_seams": "dataTeating",
+            "avg_thickness_of_seams": "dataTeating",
+            "grade_in_gar": "dataTeating",
+            "ash": "dataTeating",
+            "ts": "dataTeating",
+            "hgi": "dataTeating",
+            "reserves_in_current_pit": "dataTeating",
+            "sr": "dataTeating",
+            "total_reserves_in_the_mine": "dataTeating",
+            "contractor_mining": "dataTeating",
+            "hauling_to_crusher_stockpile": "dataTeating",
+            "crushing_rate": "dataTeating",
+            "no_of_crusher": "dataTeating",
+            "hauling_distance": "",
+            "dt_for_hauling_coal": "dataTeating",
+            "dt_for_overburden_removal": "dataTeating",
+            "loading_port": "dataTeating",
+            "loading_rate_by__conveyor": "dataTeating",
+            "distance_to_anchorage": "dataTeating",
+            "anchorage_name": "dataTeating",
+            "created_date": "2019-10-01 12:45:16",
+            "updated_date": "2019-10-01 12:45:16"
+        },
+        {
+            "id": "2",
+            "mine_name": "updator",
+            "mine_area": "updator",
+            "et_availability": "updator",
+            "no_of_pits": "updator",
+            "explored_area": "updator",
+            "total_area_of_pit": "updator",
+            "production_at_present_n_planned": "updator",
+            "production_previous_month": "updator",
+            "production_target_current_month": "updator",
+            "production_target_upcoming_month": "updator",
+            "no_of_barges_loaded_previous_month": "updator",
+            "no_of_barges_loaded_current_month": "updator",
+            "no_of_barges_to_be_loaded_upcoming_month": "updator",
+            "no_of_seams": "updator",
+            "avg_thickness_of_seams": "updator",
+            "grade_in_gar": "updator",
+            "ash": "updator",
+            "ts": "updator",
+            "hgi": "updator",
+            "reserves_in_current_pit": "updator",
+            "sr": "updator",
+            "total_reserves_in_the_mine": "updator",
+            "contractor_mining": "updator",
+            "hauling_to_crusher_stockpile": "updator",
+            "crushing_rate": "updator",
+            "no_of_crusher": "updator",
+            "hauling_distance": "updator",
+            "dt_for_hauling_coal": "updator",
+            "dt_for_overburden_removal": "updator",
+            "loading_port": "updator",
+            "loading_rate_by__conveyor": "updator",
+            "distance_to_anchorage": "updator",
+            "anchorage_name": "updator",
+            "created_date": "2019-10-01 12:45:58",
+            "updated_date": "2019-10-01 12:58:22"
+        }
+    ]
+}
+--------------------------------------------------------------------
+url->"localhost/saii_resources_api/get_mine"
+{
+	"login_user_id":"1",
+    "idtoken": "+7HXCIXb8n8sHGNQeFOWcg==",
+    "mine_id":"2"
+}
+{
+    "mine": [
+        {
+            "id": "2",
+            "mine_name": "updator",
+            "mine_area": "updator",
+            "et_availability": "updator",
+            "no_of_pits": "updator",
+            "explored_area": "updator",
+            "total_area_of_pit": "updator",
+            "production_at_present_n_planned": "updator",
+            "production_previous_month": "updator",
+            "production_target_current_month": "updator",
+            "production_target_upcoming_month": "updator",
+            "no_of_barges_loaded_previous_month": "updator",
+            "no_of_barges_loaded_current_month": "updator",
+            "no_of_barges_to_be_loaded_upcoming_month": "updator",
+            "no_of_seams": "updator",
+            "avg_thickness_of_seams": "updator",
+            "grade_in_gar": "updator",
+            "ash": "updator",
+            "ts": "updator",
+            "hgi": "updator",
+            "reserves_in_current_pit": "updator",
+            "sr": "updator",
+            "total_reserves_in_the_mine": "updator",
+            "contractor_mining": "updator",
+            "hauling_to_crusher_stockpile": "updator",
+            "crushing_rate": "updator",
+            "no_of_crusher": "updator",
+            "hauling_distance": "updator",
+            "dt_for_hauling_coal": "updator",
+            "dt_for_overburden_removal": "updator",
+            "loading_port": "updator",
+            "loading_rate_by__conveyor": "updator",
+            "distance_to_anchorage": "updator",
+            "anchorage_name": "updator",
+            "created_date": "2019-10-01 12:45:58",
+            "updated_date": "2019-10-01 12:58:22"
+        }
+    ]
+}
